@@ -26,4 +26,4 @@ chmod +x dnslookupdig.sh
 
 ## Usage
 ./dnslookupdig.sh
-# Enter the domain name: example.com
+Enter the domain name: example.com
