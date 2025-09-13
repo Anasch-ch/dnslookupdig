@@ -6,6 +6,11 @@ echo "===================================="
 echo "   DNS Lookup Tool (A, AAAA, MX, CNAME, TXT)"
 echo "===================================="
 
+# Show current date, day, and user
+echo "📅 Date: $(date +"%A, %d %B %Y")"
+echo "👤 Current User: $(whoami)"
+echo "===================================="
+
 # Ask for domain input
 read -p "Enter the domain name: " domain
 
@@ -31,7 +36,6 @@ do
 done
 
 echo "===================================="
-echo "   Script by ANASCYBERSEC 
-https://tinyurl.com/AnasCyberSec"
+echo "   Script by ANASCYBERSEC"
+echo "   🔗 https://tinyurl.com/AnasCyberSec"
 echo "===================================="
-
